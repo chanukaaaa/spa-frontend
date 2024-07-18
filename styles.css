@@ -1,0 +1,160 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+}
+
+.navbar {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo img {
+    height: 40px; 
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-menu img {
+    height: 30px; 
+    margin-right: 10px;
+}
+
+.navbar-menu h3 {
+    margin: 0;
+}
+
+.sidebar {
+    background-color: #2c3e50;
+    width: 60px; 
+    padding: 10px;
+    position: fixed;
+    top: 60px; 
+    bottom: 0;
+    color: white;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 20px; 
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.sidebar ul li a img {
+    height: 30px; 
+    margin-bottom: 5px;
+}
+
+.sidebar ul li a span {
+    font-size: 12px; 
+    text-align: center; 
+}
+
+.main-content {
+    margin-left: 80px; 
+    padding: 20px;
+    flex: 1;
+    overflow-y: auto; 
+    margin-top: 10px; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+td button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+td button img {
+    width: 20px; 
+    height: 20px;
+}
+
+.btn-new-deal {
+    background-color: #457df7; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-new-deal:hover {
+    background-color: #457df7;
+}
+
+.controls-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.left-controls {
+    flex: 1;
+}
+
+.left-controls input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}

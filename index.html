@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="navbar-logo">
+                <img src="logo.png" alt="Logo" />
+            </div>
+            <div class="navbar-menu">
+                <img src="newProfile.png" alt="Profile" />
+                <h3>Enhanzer (pvt) Ltd.</h3>
+            </div>
+        </nav>
+        <aside class="sidebar">
+            <ul>
+                <li><a href="#"><img src="deals.png" alt="Dashboard" /><span>Dashboard</span></a></li>
+                <li><a href="#"><img src="deals.png" alt="Deals" /><span>Deals</span></a></li>
+                <li><a href="#"><img src="reports.png" alt="Report" /><span>Reports</span></a></li>
+                <li><a href="#"><img src="config.png" alt="Config" /><span>Config</span></a></li>
+            </ul>
+        </aside>
+        <main class="main-content">
+            <div class="controls-row">
+                <div class="right-controls">
+                    <button id="newDealButton" class="btn-new-deal">New Deal</button>
+                </div>
+                <div class="left-controls">
+                    <input type="text" id="search" placeholder="Search..." />
+                </div>
+            </div>
+            
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>Deal Size</th>
+                        <th>Deal Category</th>
+                        <th>Deal Employee</th>
+                        <th>Deal Location</th>
+                        <th>Pipeline</th>
+                        <th>Stage</th>
+                        <th>Last Updated</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+
+
+                </tbody>
+            </table>
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
