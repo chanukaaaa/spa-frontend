@@ -22,3 +22,30 @@ This project showcases a CRM web application (SPA single page app) layout using 
 - JavaScript
 
 ## Project Structure
+├── index.html // Main HTML file
+├── styles.css // CSS file for styling
+├── scripts.js // JavaScript file for functionality
+└── README.md // This README file
+
+## Installation and Usage
+
+### Clone the repository:
+```bash
+-git clone https://github.com/chanukaaaa/spa-frontend
+
+##Navigate to the project directory:
+
+-bash
+
+-cd spa-frontend
+
+-Open index.html in your preferred web browser to view the application.
+
+##Live Demo
+
+-A live version of the application can be accessed at: https://spa-frontend-seven.vercel.app/
+
+
+##Acknowledgements
+
+Feel free to replace any placeholders with the appropriate content as needed.
