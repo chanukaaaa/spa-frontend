@@ -1,56 +1,51 @@
-Front-End Developer Internship Assignment - Enhanzer
-Project Overview
+# CRM Web Application
 
-This project is a submission for the Front-End Developer Internship assignment at Enhanzer. It showcases my ability to develop a CRM web application layout using HTML, CSS, and JavaScript. The application includes features such as a navbar, sidebar, table with data, search functionality, and action buttons.
-Features
+This project showcases a CRM web application (SPA single page app) layout using HTML, CSS, and JavaScript. The application includes features such as a navbar, sidebar, table with data, search functionality, and action buttons.
 
-    Responsive Navbar:
-        Displays the company logo and profile information.
-        Ensures all elements are aligned in a single row.
+## Features
 
-    Sidebar:
-        Contains navigation icons for Dashboard, Deals, Reports, and Config.
-        Each icon is accompanied by a title.
+### Responsive Navbar:
+- Displays the company logo and profile information.
+- Ensures all elements are aligned in a single row.
 
-    Main Content Area:
-        Includes a "New Deal" button and a search input field.
-        Displays a table with data about deals, including action buttons for editing, deleting, and viewing each deal.
+### Sidebar:
+- Contains navigation icons for Dashboard, Deals, Reports, and Config.
+- Each icon is accompanied by a title.
 
-Technologies Used
+### Main Content Area:
+- Includes a "New Deal" button and a search input field.
+- Displays a table with data about deals, including action buttons for editing, deleting, and viewing each deal.
 
-    HTML
-    CSS
-    JavaScript
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
 
-Project Structure
+## Project Structure
+├── index.html // Main HTML file
+├── styles.css // CSS file for styling
+├── scripts.js // JavaScript file for functionality
+└── README.md // This README file
 
-less
+## Installation and Usage
 
-.
-├── index.html          // Main HTML file
-├── styles.css          // CSS file for styling
-├── scripts.js          // JavaScript file for functionality
-└── README.md           // This README file
+### Clone the repository:
+```bash
+-git clone https://github.com/chanukaaaa/spa-frontend
 
-Installation and Usage
+##Navigate to the project directory:
 
-    Clone the repository:
+-bash
 
-    bash
+-cd spa-frontend
 
-git clone [GitHub Repo Link]
+-Open index.html in your preferred web browser to view the application.
 
-Navigate to the project directory:
+##Live Demo
 
-bash
+-A live version of the application can be accessed at: https://spa-frontend-seven.vercel.app/
 
-    cd [repository-name]
 
-    Open index.html in your preferred web browser to view the application.
+##Acknowledgements
 
-Live Demo
-
-A live version of the application can be accessed at: [Deployment Link]
-Acknowledgements
-
-Thank you to the Enhanzer HR Team for providing this assignment and the opportunity to showcase my skills.
+Feel free to replace any placeholders with the appropriate content as needed.
